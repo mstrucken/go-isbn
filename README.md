@@ -1,5 +1,6 @@
 # go-isbn
 
+[![CI](https://github.com/mstrucken/go-isbn/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/mstrucken/go-isbn/actions/workflows/test.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/mstrucken/go-isbn.svg)](https://pkg.go.dev/github.com/mstrucken/go-isbn)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mstrucken/go-isbn)](https://goreportcard.com/report/github.com/mstrucken/go-isbn)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
