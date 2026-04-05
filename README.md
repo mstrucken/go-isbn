@@ -1,5 +1,9 @@
 # go-isbn
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/mstrucken/go-isbn.svg)](https://pkg.go.dev/github.com/mstrucken/go-isbn)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mstrucken/go-isbn)](https://goreportcard.com/report/github.com/mstrucken/go-isbn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A Go library for parsing, validating, converting, and formatting ISBN-10 and ISBN-13 identifiers.
 
 ## Installation
