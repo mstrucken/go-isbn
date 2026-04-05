@@ -17,6 +17,9 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
+          # Cache is disabled because this module has no external dependencies
+          # and therefore no go.sum file, which setup-go requires for caching.
+          cache: false
 
       - name: Test
         run: go test ./...
