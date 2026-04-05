@@ -1,0 +1,25 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          # Cache is disabled because this module has no external dependencies
+          # and therefore no go.sum file, which setup-go requires for caching.
+          cache: false
+
+      - name: Test
+        run: go test ./...
